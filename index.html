@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Smove</title>
+    <link rel="icon" href="images/smove.ico" sizes="32x32" type="image/ico" />
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <script type="text/javascript" src="js/common.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/param.js" charset="UTF-8" defer></script>
+    <script type="text/javascript" src="js/category.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/main.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/views.js" charset="UTF-8"></script>
+</head>
+<body onkeydown="keyEvent()">
+    <div id="container">
+        <canvas id="scene" width=800 height=800></canvas>
+    </div>
+</body>
+<script type="text/javascript">
+    Smove.startGame();
+</script>
+</html>
